@@ -1,0 +1,96 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgb(108, 117, 125);
+}
+
+.header {}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main__container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.article {}
+
+.arctile_container {
+    max-width: 770px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.text_container {}
+
+.first_article {}
+
+.content {
+    width: 550px;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+.date {
+    margin-bottom: 15px;
+}
+
+.title_atricle {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: rgb(33, 37, 41);
+    margin-bottom: 15px;
+}
+
+.author span {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.text_container {
+    margin-bottom: 100px;
+}
+
+.text_container p {
+    max-width: 816px;
+}
+
+.main_image {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.second_article {}
+
+.image_block {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.images {
+    font-size: 0;
+}
+
+.image1 {
+    margin-right: 30px;
+}
+
+footer {
+    height: 60px;
+    background-color: rgb(128, 86, 60);
+    text-align: center;
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
