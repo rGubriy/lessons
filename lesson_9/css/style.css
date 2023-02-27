@@ -1,0 +1,162 @@
+@import url("reset.css");
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {}
+
+.header {
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 24px;
+    background: rgb(57, 113, 158);
+    color: brown;
+    padding: 20px 15px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.main h2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 24px;
+    background: rgb(57, 113, 158);
+    color: white;
+    padding: 20px 15px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+.icons {
+    background: rgb(61, 54, 54);
+    margin-bottom: 100px;
+    padding: 25px;
+}
+
+.logo {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+
+
+.services {
+    margin-bottom: 25px;
+}
+
+.services img:hover {
+    box-shadow: 0px 0px 15px 5px wheat;
+}
+
+.clients img {
+    display: inline-block;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 2px dotted wheat;
+    margin-right: 15px;
+}
+
+.clients img:last-child {
+    margin-right: 0px;
+}
+
+.connections {
+    margin-bottom: 30px;
+    background: rgb(207, 193, 193);
+    padding: 15px;
+}
+
+.connections img:not(:last-child) {
+    margin-right: 15px;
+}
+
+.connections img:hover:first-child {
+    box-shadow: 0px 0px 5px 10px black;
+    border-radius: 50%;
+}
+
+.connections img:hover:last-child {
+    box-shadow: 0px 0px 5px 10px rgb(187, 178, 178);
+    border-radius: 50%;
+}
+
+.social {
+    margin-bottom: 25px;
+    text-align: end;
+}
+
+.social img:not(:last-child) {
+    margin-right: 15px;
+}
+
+.social img:hover {
+    box-shadow: 0px 0px 5px 2px wheat;
+}
+
+/* ДИЗАЙН */
+.design {
+    background: rgb(33, 28, 28);
+    margin-bottom: 100px;
+}
+
+.design img {
+    padding: 10px;
+    border: 1px solid wheat;
+    margin: 8px;
+}
+
+.design img:not(:last-child) {
+    margin-right: 15px;
+}
+
+
+/* КОНТЕНТ */
+.content {
+    margin-bottom: 100px;
+}
+
+.content img {
+
+    margin: 20px;
+    width: 100%;
+}
+
+.jpg-format {
+    margin-bottom: 100px;
+}
+
+.jpg-format img {
+    max-width: 400px;
+}
+
+.jpg-format img:hover:not(:last-child) {
+    border: 3px solid rgb(57, 113, 158);
+    border-radius: 20px;
+}
+
+.png-format {
+    margin-bottom: 50px;
+
+}
+
+.footer h3 {
+    margin: 0 auto;
+    font-size: 24px;
+    background: rgb(57, 113, 158);
+    color: white;
+    padding: 20px 15px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
