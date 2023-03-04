@@ -88,11 +88,11 @@ body {
 
 .sub-menu__lists {
     position: absolute;
-    /* visibility: hidden; */
+    visibility: hidden;
     opacity: 0;
     pointer-events: all;
     top: 100%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     left: 0;
     background: rgb(255, 255, 255);
     padding: 22px 0px;
@@ -178,7 +178,7 @@ body {
     min-height: 310px;
     position: absolute;
     left: 160px;
-    top: 20px;
+    top: 35px;
     visibility: hidden;
     opacity: 0;
     border: 1px solid black;
@@ -192,7 +192,7 @@ body {
     min-width: 200px;
     display: inline-block;
     position: absolute;
-    top: -20px;
+    top: 15px;
     left: 0px;
     margin-left: 30px;
     margin-right: 80px;
@@ -202,12 +202,12 @@ body {
     min-width: 200px;
     display: inline-block;
     position: absolute;
-    top: -20px;
+    top: 15px;
     left: 180px;
 }
 
 .sub-menu__title {
-    padding-left: 12px;
+    padding-left: 8px;
     margin-bottom: 20px;
 }
 
