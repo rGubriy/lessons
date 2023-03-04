@@ -176,6 +176,7 @@ body {
 .sub-menu__container {
     width: 600px;
     min-height: 310px;
+    margin: 0 auto;
     position: absolute;
     left: 160px;
     top: 35px;
