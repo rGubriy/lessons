@@ -235,7 +235,9 @@ a:hover {
 
 /* HEADER MENU */
 
-.header__menu {}
+.header__menu {
+    margin-right: 50px;
+}
 
 .menu-header {}
 
@@ -255,7 +257,9 @@ a:hover {
 
 
 /* HEADER ICONS */
-.header__icons {}
+.header__icons {
+    position: relative;
+}
 
 .header__icons>* {
     display: inline-block;
@@ -263,6 +267,48 @@ a:hover {
 
 .header__icon {
     margin-right: 24px;
+}
+
+.icon-search {}
+
+.icon-like {
+    position: relative;
+    top: -1px
+}
+
+.icon-like::after {
+    content: "3";
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+    background: url(../img/header/elipse.svg) center no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+
+.icon-box {
+    position: relative;
+    top: -4px
+}
+
+.icon-box::after {
+    content: "1";
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+    background: url(../img/header/elipse.svg) center no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -3px;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
 }
 
 .main {}
