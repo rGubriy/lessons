@@ -46,7 +46,7 @@ a:hover {
 
 .header__categories {
     margin-right: 45px;
-    padding: 35px 0px
+    padding: 35px 0px;
 }
 
 .header-categories__list::after {
@@ -70,6 +70,7 @@ a:hover {
 .header-categories:hover .list-dropdown {
     visibility: visible;
     opacity: 1;
+    transform: translate(0px, 0px);
 }
 
 .header-categories__list {
@@ -84,15 +85,23 @@ a:hover {
     opacity: 0;
     transition: all 0.4s;
     width: 180px;
-    margin-top: 6px;
     background: #FFFFFF;
-    padding: 24px 22px;
+    padding-top: 22px;
+    padding-bottom: 22px;
     position: absolute;
     top: 100%;
     left: 0px;
     border-radius: 2px;
     border: 0.5px solid #E7E7E7;
+    transform: translate(0px, 10px);
+    transition: all 0.4s;
 }
+
+.header-categories__sub-menu {
+    /* padding-bottom: 30px; */
+}
+
+.dropdown-menu__items {}
 
 .list-dropdown::before {
     content: "";
@@ -107,11 +116,15 @@ a:hover {
 
 .list-dropdown__item {
     position: relative;
+    padding-top: 5px;
+    padding-left: 22px;
+    padding-right: 22px;
 }
 
 .list-dropdown__item:hover .dropdown-menu {
     visibility: visible;
     opacity: 1;
+    transform: translate(0px, 0px);
 }
 
 .list-dropdown__item:not(:last-child) {
@@ -142,13 +155,15 @@ a:hover {
 .dropdown-menu {
     position: absolute;
     top: -25px;
-    left: 100%;
+    left: 155px;
     margin-left: 25px;
     background: #fff;
     padding: 30px;
     border-radius: 2px;
+    border: 0.5px solid #E7E7E7;
     visibility: hidden;
     opacity: 0;
+    transform: translate(10px, 0px);
     transition: all 0.4s;
 }
 
@@ -166,7 +181,7 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.dropdown-menu__items {}
+
 
 .dropdown-menu__item {
     margin-bottom: 13px;
