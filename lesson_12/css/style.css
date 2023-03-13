@@ -11,7 +11,7 @@
     color: aliceblue;
     font-size: 22px;
     letter-spacing: 6px;
-    /* animation-name: line-text; */
+    animation-name: line-text;
     animation-duration: 4s;
     animation-timing-function: linear;
     animation-delay: 0s;
