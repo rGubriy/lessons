@@ -99,8 +99,8 @@
 .image-card__categories {
     position: absolute;
     text-transform: uppercase;
-    top: 33px;
-    left: 275px;
+    top: 13%;
+    left: 75%;
     color: rgb(248, 249, 250);
     font-weight: 500;
     background: rgba(33, 37, 41, 0.3);
