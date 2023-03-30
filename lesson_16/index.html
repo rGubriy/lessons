@@ -50,18 +50,18 @@
                             <input required class="item__input" id="user-last-name" value="" type="text">
                         </div>
                         <div class="item__info">
-                            <label class="item__label" for="user-last-name">Company</label>
-                            <input class="item__input" id="user-last-name" value="" type="text">
+                            <label class="item__label" for="user-сompany">Company</label>
+                            <input class="item__input" id="user-сompany" value="" type="text">
                         </div>
                         <div class="item__info">
                             <label class="item__label required" for="user-address">Street Address</label>
                             <input required class="item__input" id="user-address" value="" type="text">
                         </div>
                         <div class="item__info item__info_right">
-                            <input class="item__input" id="user-address" value="" type="text">
+                            <input class="item__input" id="user-address-2" value="" type="text">
                         </div>
                         <div class="item__info item__info_right">
-                            <input class="item__input" id="user-address" value="" type="text">
+                            <input class="item__input" id="user-address-3" value="" type="text">
                         </div>
                         <div class="item__info">
                             <label class="item__label required" for="user-country">Country</label>
@@ -70,12 +70,14 @@
                         <div class="item__info">
                             <label class="item__label required" for="user-country">State/Province</label>
                             <select required class="item__list list" name="list">
-                                <option class="list__option" value="select">Please select a region, state or province
+                                <option aria-placeholder="Please select a region,
+                                state or province" class="list__option" value="0">Please select a region,
+                                    state or province
                                 </option>
-                                <option class="list__option" value="Ukraine">Ukraine</option>
-                                <option class="list__option" value="Spain">Spain</option>
-                                <option class="list__option" value="France">France</option>
-                                <option class="list__option" value="Bulgaria">Bulgaria</option>
+                                <option class="list__option" value="1">Ukraine</option>
+                                <option class="list__option" value="2">Spain</option>
+                                <option class="list__option" value="3">France</option>
+                                <option class="list__option" value="4">Bulgaria</option>
                             </select>
                         </div>
                         <div class="form__methods methods">
@@ -99,8 +101,8 @@
                                 </div>
                             </div>
                             <div class="form__buttons">
-                                <button class="button" href="#">next</button>
-                                <button class="button button-white" href="#">back</button>
+                                <button class="button">next</button>
+                                <button class="button button-white">back</button>
                             </div>
                         </div>
 
@@ -125,11 +127,11 @@
                             </div>
                             <div class="checkout-block__item">
                                 <select placeholder="Country*" class="checkout-block__select" name="" id="">
-                                    <!-- <option value="">Country*</option> -->
-                                    <option value="Ukraine">Ukraine</option>
-                                    <option value="Spain">Spain</option>
-                                    <option value="France">France</option>
-                                    <option value="Dubai">Dubai</option>
+                                    <option value="0">Country*</option>
+                                    <option value="1">Ukraine</option>
+                                    <option value="2">Spain</option>
+                                    <option value="3">France</option>
+                                    <option value="4">Dubai</option>
                                 </select>
                             </div>
                             <div class="checkout-block__item">
@@ -170,7 +172,7 @@
                             <div class="checkout-block__item">
                                 <input placeholder="Coupon code*" class="checkout-block__input" type="text">
                             </div>
-                            <button class="discout-block__button">Apply Code</button>
+                            <button type="button" class="discout-block__button">Apply Code</button>
                         </div>
 
                     </div>
