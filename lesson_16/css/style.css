@@ -433,6 +433,7 @@ body {
     background: rgb(133, 128, 128);
 }
 
+
 @media(max-width:1060px) {
 
     .item__info {
@@ -442,7 +443,7 @@ body {
 
     .item__input {
         flex: 0 0 44px;
-        width: 451px;
+        max-width: 410px;
     }
 
     .item__label {
@@ -465,3 +466,8 @@ body {
     .list {
         flex: 0 0 44px;
     }
+
+    .checkout-block__text {
+        max-width: 400px;
+    }
+}
