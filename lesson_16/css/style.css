@@ -17,7 +17,8 @@ body {
 .form-1 {
     max-width: 636px;
     margin: 0 auto;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 100px;
 }
 
@@ -431,3 +432,36 @@ body {
     color: rgba(0, 0, 0, 1);
     background: rgb(133, 128, 128);
 }
+
+@media(max-width:1060px) {
+
+    .item__info {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .item__input {
+        flex: 0 0 44px;
+        width: 451px;
+    }
+
+    .item__label {
+        flex: 0 0 44px;
+        align-self: flex-start;
+    }
+
+    .form-1 {
+        max-width: 636px;
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 100px;
+    }
+
+    .item__info_right {
+        margin-left: 0px;
+    }
+
+    .list {
+        flex: 0 0 44px;
+    }
